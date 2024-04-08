@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react"
+import { useState } from "react"
 import { Card } from "../components/Card/Card"
 import Arr from "../components/Card Data/card.data"
 import "./GameContainers.css"
@@ -42,7 +42,7 @@ export const Game = () => {
         <div className="container">
             <div className="CardGame">
             {
-                arr.map((item,index) => (
+                arr.map((_item,index) => (
                          <Card 
                          key={index} 
                          show={() => onShowHandler(index)} 
