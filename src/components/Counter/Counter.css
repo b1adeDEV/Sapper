@@ -1,0 +1,25 @@
+.btn_counter {
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn_counter > h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.reset_btn {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}

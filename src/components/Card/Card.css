@@ -1,0 +1,29 @@
+.card {
+    width: 15%;
+    height: 40px;
+    background-color: gray;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hide {
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ringHide {
+    display: none;
+
+}
+
+.ringShow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+}
