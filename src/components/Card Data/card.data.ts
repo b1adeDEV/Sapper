@@ -17,7 +17,6 @@ const Arr = () => {
 let random_num = Math.floor(Math.random()* ArrCard.length)
 ArrCard[random_num].hasItem = true
 ArrCard[random_num].Ring = "o"
-console.log(ArrCard);
 return ArrCard
 }
 
